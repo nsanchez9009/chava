@@ -1,22 +1,21 @@
 import java.util.Scanner;
 
-public enum Piece {
-    WHITE_ROOK("Wrook"),
-    WHITE_KNIGHT("Wknight"),
-    WHITE_BISHOP("Wbishop"),
-    WHITE_QUEEN("Wqueen"),
-    WHITE_KING("Wking"),
-    WHITE_PAWN("Wpawn"),
-    BLACK_ROOK("Brook"),
-    BLACK_KNIGHT(),
-    BLACK_BISHOP(),
-    BLACK_KING(),
-    BLACK_QUEEN(),
-    BLACK_PAWN(),
-
-
-
-
+public enum ChessPiece {
+    // Black pieces
+    BLACK_KING('\u265A'),
+    BLACK_QUEEN('\u265B'),
+    BLACK_ROOK('\u265C'),
+    BLACK_BISHOP('\u265D'),
+    BLACK_KNIGHT('\u265E'),
+    BLACK_PAWN('\u265F'),
+    
+    // White pieces
+    WHITE_KING('\u2654'),
+    WHITE_QUEEN('\u2655'),
+    WHITE_ROOK('\u2656'),
+    WHITE_BISHOP('\u2657'),
+    WHITE_KNIGHT('\u2658'),
+    WHITE_PAWN('\u2659')
 } 
 
 public class Chava {
